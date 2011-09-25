@@ -14,3 +14,5 @@ set number
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
+nnoremap <silent> <F9> :TagbarToggle<CR>
+
