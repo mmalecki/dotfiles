@@ -25,3 +25,6 @@
 [submodule "bundle/TaskList.vim"]
 	path = bundle/TaskList.vim
 	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule "bundle/swap-parameters"]
+	path = bundle/swap-parameters
+	url = https://github.com/vim-scripts/swap-parameters.git
