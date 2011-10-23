@@ -14,6 +14,7 @@ filetype plugin indent on
 set number
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 set colorcolumn=79
+set cursorline
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 nnoremap <silent> <F9> :TagbarToggle<CR>
