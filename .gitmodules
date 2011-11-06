@@ -34,3 +34,6 @@
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/bundle/vim-node.js"]
+	path = vim/bundle/vim-node.js
+	url = https://github.com/mmalecki/vim-node.js.git
