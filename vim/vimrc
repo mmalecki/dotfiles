@@ -19,3 +19,7 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 nnoremap <silent> <F9> :TagbarToggle<CR>
 
+if filereadable("/usr/local/bin/ctags")
+  let g:tagbar_ctags_bin='/usr/local/bin/ctags'
+endif
+
