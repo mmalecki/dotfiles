@@ -25,3 +25,6 @@ endif
 
 nnoremap ; :
 
+set listchars=tab:▸\ ,eol:¬
+set list
+
