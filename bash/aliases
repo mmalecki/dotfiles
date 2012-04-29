@@ -1,0 +1,10 @@
+#!/bin/sh
+alias ".."="cd .."
+
+alias ll="ls -l"
+alias l=ll
+
+alias gc="git commit -v"
+
+alias ":q"="exit"
+alias ":e"="vim"
