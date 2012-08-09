@@ -58,3 +58,9 @@
 [submodule "vim/bundle/MatchTag"]
 	path = vim/bundle/MatchTag
 	url = https://github.com/gregsexton/MatchTag.git
+[submodule "vim/bundle/coffee-script"]
+	path = vim/bundle/coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "vim/bundle/command-t"]
+	path = vim/bundle/command-t
+	url = git://git.wincent.com/command-t.git
