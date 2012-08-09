@@ -33,3 +33,7 @@ set laststatus=2
 set incsearch
 set ignorecase
 set smartcase
+
+set clipboard=unnamed
+
+inoremap kj <Esc>
