@@ -12,12 +12,14 @@ set softtabstop=2
 set nofoldenable
 filetype plugin indent on
 set number
-nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 set colorcolumn=79
 set cursorline
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
-nnoremap <silent> <F9> :TagbarToggle<CR>
+nnoremap <silent> <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
+nnoremap <silent> <F3> :TagbarToggle<CR>
+nnoremap <silent> <F4> :NERDTreeToggle<CR>
+map <silent> <F5> <Plug>TaskList
 
 if filereadable("/usr/local/bin/ctags")
   let g:tagbar_ctags_bin='/usr/local/bin/ctags'
@@ -33,7 +35,5 @@ set laststatus=2
 set incsearch
 set ignorecase
 set smartcase
-
-set clipboard=unnamed
 
 inoremap kj <Esc>
