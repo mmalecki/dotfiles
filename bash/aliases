@@ -8,3 +8,5 @@ alias gc="git commit -v"
 
 alias ":q"="exit"
 alias ":e"="vim"
+
+alias "+x"="chmod +x"
