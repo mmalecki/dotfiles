@@ -1,2 +1,2 @@
 #!/bin/sh
-git commit package.json -m "[dist] Bump version to $1" && git tag -am "Version $1" v$1
+git commit package.json -m "[dist] Bump version to $1" && git tag -sam "Version $1" v$1
