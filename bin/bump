@@ -1,2 +1,7 @@
 #!/bin/sh
-git commit package.json -m "[dist] Bump version to $1" && git tag -sam "Version $1" v$1
+version=$(node -p 'require("./package.json").version')
+if [ $? -ne 0 ]; then
+  exit
+fi
+
+git commit package.json -m "Bump version to $version" && git tag -sam "Version $version" v$version
