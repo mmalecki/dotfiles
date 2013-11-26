@@ -10,3 +10,5 @@ alias ":q"="exit"
 alias ":e"="vim"
 
 alias "+x"="chmod +x"
+
+alias "npmeu"="npm --registry http://registry.npmjs.eu"
