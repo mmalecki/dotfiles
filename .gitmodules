@@ -82,3 +82,6 @@
 [submodule "vim/bundle/golang"]
 	path = vim/bundle/golang
 	url = https://github.com/jnwhiteh/vim-golang.git
+[submodule "vim/bundle/vim-less"]
+	path = vim/bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
